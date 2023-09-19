@@ -1,4 +1,4 @@
-## Estimating Genetic Diversity from Genomic Data 19 September 2023
+## Estimating Genetic Diversity from Genomic Data - 19 September 2023
 
 Today we will be working with some genomic data in order to estimate population genetic diversity within populations.
 First, do the following items:
