@@ -49,7 +49,7 @@ Normally in R, when you just type the name of the object (here we named it simpl
 files, you won't want to do that. Instead, you could look at the structure of an object to see what components it has. Check this out
 with the following command:
 
-    str(input_file)
+    str(vcf)
 
 ## 2. Define populations 
 
