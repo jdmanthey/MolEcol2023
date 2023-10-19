@@ -167,6 +167,8 @@ If approved, save a pdf file of the plot of your conductance raster, and email t
 Today we will be using the conductance maps we made last week to estimate least cost path (LCP) distances between 
 populations, and see which model best fits the data.
 
+Any usage of rgdal package has been commented out.
+
 ### 1. Answer question #5 on your worksheet.
 
 ### 2. Change the directory to the one you used last week. Load packages.
@@ -174,7 +176,7 @@ populations, and see which model best fits the data.
 Load the packages we need for today:
 
     library(raster)
-    library(rgdal)
+    #library(rgdal)
     library(gdistance)
     library(ecodist)
 
@@ -184,10 +186,10 @@ Load the packages we need for today:
 
         x <- raster("test.grd")
 
-2. Load the political boundaries and make the Arizona shapefile again:
+2. Load the political boundaries and make the Arizona shapefile again: (skip)
 
-        usa <- readOGR("gadm36_USA_shp", "gadm36_USA_1")
-        arizona <- subset(usa, usa@data$NAME_1 %in% c("Arizona"))
+        #usa <- readOGR("gadm36_USA_shp", "gadm36_USA_1")
+        #arizona <- subset(usa, usa@data$NAME_1 %in% c("Arizona"))
 
 3. Read in sampling points and modify as on Wednesday:
 
@@ -198,7 +200,7 @@ Load the packages we need for today:
 4. Make sure they loaded properly by plotting. 
 
         plot(x)
-        plot(arizona, add=T)
+        #plot(arizona, add=T)
         points(sampling_points2)
     
 5. Create a cost distance object (functions are part of the gdistance package).
@@ -249,14 +251,14 @@ If we want to visualize the LCP between two populations, we can do so as follows
     
     # get the LCP between population 2 and population 5
     plot(x)
-    plot(arizona, add=T)
+    #plot(arizona, add=T)
     lines(shortestPath(transition_layer2, sampling_points2[2, ], sampling_points2[5, ], output="SpatialLines"))
    
 If you want to plot all the LCP between population 1 and another population, run the following. If you want to change which
 population you are starting with, choose a different number assigned to the variable "population_to_use"
 
     plot(x)
-    plot(arizona, add=T)
+    #plot(arizona, add=T)
     population_to_use <- 1
     for(a in 1:9) {
 	    lines(shortestPath(transition_layer2, sampling_points2[population_to_use,], sampling_points2[a,], output="SpatialLines"), lwd=2)
