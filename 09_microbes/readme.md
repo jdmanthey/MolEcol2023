@@ -4,7 +4,7 @@ Through the next two classes, we will be analyzing some microbiome data from the
 from the sky islands of southern Arizona (similar sampling localities to the _Certhia_ datasets we previously analyzed). 
 These samples are from four populations: (1) Chiricahua, (2) Huachuca, (3) Pinaleño, and (4) Santa Catalina Mountain Ranges. 
 If you need a refresher of where these locations are, check out a previous lab page (toward the bottom): 
-https://github.com/jdmanthey/MolEcol2021/tree/main/05_genetic_structure
+https://github.com/jdmanthey/MolEcol2023/tree/main/05_genetic_structure
 
 This list of activities is long, and that is why we are budgeting 2 classes for them all. Go at your own pace.
 
