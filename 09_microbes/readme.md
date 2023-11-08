@@ -11,7 +11,7 @@ This list of activities is long, and that is why we are budgeting 2 classes for 
 ### 1. Download data
 
 Download the zip file from this link: [link](https://drive.google.com/file/d/1FXaJmU4JY4f9ibGp4hykT31W7NcN5OS_/view?usp=drive_link), unzip it,
-and set that directory as your working directory in RStudio.
+and set that directory (class_subsample, not raw_data) as your working directory in RStudio.
 
 ### 2. Install necessary packages
 
