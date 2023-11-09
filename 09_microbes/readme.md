@@ -1,6 +1,6 @@
 ## Microbiome Community Abundance and Diversity - November 2023
 
-Through the next two classes, we will be analyzing some microbiome data from the guts of _Sitta carolinensis_ birds
+Through the next two classes, we will be analyzing some microbiome data (16S rRNA gene fragment) from the guts of _Sitta carolinensis_ birds
 from the sky islands of southern Arizona (similar sampling localities to the _Certhia_ datasets we previously analyzed). 
 These samples are from four populations: (1) Chiricahua, (2) Huachuca, (3) Pinaleño, and (4) Santa Catalina Mountain Ranges. 
 If you need a refresher of where these locations are, check out a previous lab page (toward the bottom): 
